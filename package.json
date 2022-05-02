@@ -1,11 +1,13 @@
 {
-  "name": "meu-projeto",
+  "name": "http-protocol-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.18.9",
+    "axios": "^0.27.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -13,6 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "db": "json-server --watch db.json --port 5000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +37,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "sass": "^1.51.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [
+    "http",
+    "http-protocol",
+    "https",
+    "www",
+    "requests-response",
+    "axios",
+    "tailwindcss",
+    "api",
+    "http-headers",
+    "creation-of-api-rest"
+  ],
+  "author": "Alberto Vinícius Albuquerque dos Santos",
+  "license": "ISC"
 }
